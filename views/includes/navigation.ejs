@@ -1,0 +1,26 @@
+<header class="main-header">
+    <nav class="main-header__nav">
+        <ul class="main-header__item-list"
+            <li class="main-header__item">
+                <a class="< %= path === '/' ? 'active' : ''%>" href="/">商店</a>
+            </li>
+            <li class="main-header__item">
+                <a class=" <% path === '/products' ? 'active' : '' %>" href="/products">商品</a>
+            </li>
+            <li class="main-header__item">
+                <a class="<%= path === '/cart' ? 'active' : '' %>" href="/cart">購物車</a>
+            </li>
+            <li class="main-header__item">
+                <a class="<%= path === '/orders' ? 'active' : '' %>" href="/orders">訂單</a>
+            </li>
+            <li class="main-header__item">
+                <a class="<%= path === '/admin/add-product' ? 'active' : '' %>" href="/admin/add-product">增加商品
+
+                </a>
+            </li>
+            <li class="main-header__item">
+                <a class="<%= path === '/admin/products' ? 'active' : '' %>" href="/admin/products">Admin Products</a>
+            </li>
+        </ul>
+    </nav>
+</header>
